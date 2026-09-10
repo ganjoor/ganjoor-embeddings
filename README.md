@@ -49,7 +49,7 @@ python3 scripts/generate_embeddings.py \
 
 ## License
 
-**No `LICENSE` file yet — add one matching whatever your other Ganjoor repos already use**,
-rather than trust a default picked here. The generated embeddings data's licensing follows from
-its two inputs (your own `PoemSummary` text, and Qwen3-Embedding-0.6B's Apache 2.0 weights) — see
-`docs/MODEL.md` and `docs/DATA_GENERATION.md` for exactly what each of those is.
+**GPLv3** — see [`LICENSE`](LICENSE), matching [`GanjoorService`](https://github.com/ganjoor/GanjoorService).
+Applies to everything in this repo: the tooling code and the published embeddings data alike,
+by deliberate choice, for consistency with the rest of the Ganjoor project family rather than
+splitting code and data under different license types.
